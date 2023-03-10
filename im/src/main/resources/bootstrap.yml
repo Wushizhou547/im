@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: im
+
+pagehelper:
+  helper-dialect: PostgreSQL
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+  returnPageInfo: check

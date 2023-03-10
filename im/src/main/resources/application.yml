@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: '@env@'
+server:
+  port: 8888
+
+# 配置mybatis-plus规则
+mybatis-plus:
+  # 自定义sql映射文件目录路径
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration:
+    #    是否开启使用驼峰式命名
+    map-underscore-to-camel-case: true
+
+
